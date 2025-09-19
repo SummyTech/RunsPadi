@@ -14,3 +14,13 @@ html{
   font-weight: 400;
   font-style: normal;
 }
+
+/* Custom Swiper Pagination Colors */
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #e5e7eb; 
+  opacity: 1; 
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #E8505B; 
+}

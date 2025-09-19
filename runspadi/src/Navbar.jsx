@@ -41,7 +41,7 @@ const Navbar = () => {
         scrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="lg:max-w-6xl max-md:px-6 lg:px-6 max-lg:max-w-2xl mx-auto py-4 flex justify-between items-center">
+      <div className="lg:max-w-6xl max-md:px-6 lg:px-6 max-lg:max-w-2xl mx-auto py-5 flex justify-between items-center">
         {/* Logo */}
         <a
           href="/"
@@ -70,12 +70,12 @@ const Navbar = () => {
 
         {/* Get Started Button (desktop only) */}
         <div className="hidden lg:block">
-          {/* <Link
-            to="/dashboardApp"
-            className="bg-blue-600 text-white px-7 py-2 rounded"
+          <a
+            href=""
+            className="bg-[#E8505B] text-white px-7 py-3 rounded"
           >
-            Get Started
-          </Link> */}
+            Download App
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -98,7 +98,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className={`block transition-colors px-3 py-2 rounded-sm font-semibold ${
                     activeSection === item.id
-                      ? "text-[#007BFF] bg-[#DBE7F6]"
+                      ? "text-[#E8505B] bg-[#f7e7e8]"
                       : "text-[#1F2937]"
                   }`}
                 >
@@ -107,13 +107,13 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              {/* <Link
-                to="/dashboardApp"
+              <a
+                href=""
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center bg-[#2563EB] text-white px-7 py-2 rounded-lg"
+                className="block w-full text-center bg-[#E8505B] text-white px-7 py-2 rounded-lg"
               >
                 Get Started
-              </Link> */}
+              </a>
             </li>
           </ul>
         </div>
