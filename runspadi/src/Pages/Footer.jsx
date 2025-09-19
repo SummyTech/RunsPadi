@@ -7,7 +7,7 @@ function Footer(){
             <div className=" dark:text-gray-300 space-y-4">
                 {/* logo  */}
                 <div>
-                    <a href="./Home.jsx" className="text-4xl text-white font-bold satisfy-regular">Runspadi</a>
+                    <a href="./Home.jsx" className="text-4xl text-white font-bold satisfy-regular">RunsPadi</a>
                 </div>
                 <div>
                     {/* text  */}

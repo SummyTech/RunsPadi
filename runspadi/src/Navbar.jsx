@@ -46,7 +46,7 @@ const Navbar = () => {
           href="/"
           className="text-4xl text-[#E8505B] font-bold satisfy-regular"
         >
-          Runspadi
+          RunsPadi
         </a>
 
         {/* Desktop Menu */}
