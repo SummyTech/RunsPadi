@@ -38,14 +38,14 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md" : "bg-transparent"
+        scrolled ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100" : "bg-transparent"
       }`}
     >
       <div className="lg:max-w-6xl max-md:px-6 lg:px-6 max-lg:max-w-2xl mx-auto py-5 flex justify-between items-center">
         {/* Logo */}
         <a
           href="/"
-          className="text-4xl text-[#E8505B] font-bold satisfy-regular"
+          className="text-4xl text-[#E8505B] font-bold satisfy-regular hover:scale-105 transition-transform duration-300"
         >
           RunsPadi
         </a>
@@ -72,9 +72,9 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <a
             href=""
-            className="bg-[#E8505B] text-white px-7 py-3 rounded"
+            className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-7 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 btn-modern"
           >
-            Download App
+            📱 Download App
           </a>
         </div>
 
@@ -110,9 +110,9 @@ const Navbar = () => {
               <a
                 href=""
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center bg-[#E8505B] text-white px-7 py-2 rounded-lg"
+                className="block w-full text-center bg-gradient-to-r from-red-500 to-pink-500 text-white px-7 py-3 rounded-xl font-semibold"
               >
-                Get Started
+                📱 Download App
               </a>
             </li>
           </ul>
