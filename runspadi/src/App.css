@@ -24,3 +24,19 @@ html{
 .custom-swiper .swiper-pagination-bullet-active {
   background-color: #E8505B; 
 }
+
+.slide-text {
+  position: relative;
+  transform: translateY(100%);  /* Start off-screen to the right */
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards; /* Trigger the animation */
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);   /* End at original position */
+    opacity: 1;
+  }
+}
+
+

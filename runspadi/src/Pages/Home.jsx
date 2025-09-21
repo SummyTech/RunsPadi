@@ -6,12 +6,12 @@ const Home = () => {
             <div className=" flex flex-col lg:flex-row items-center gap-10">
         
         {/* Left Text Content */}
-        <div className="flex-1 text-center md:text-left">
+        <div className="flex-1 text-center md:text-left ">
           <h1 className="text-4xl md:text-5xl  text-gray-900 leading-snug">
             <span className="text-gray-900 font-bold">Home Delivery</span> From <br className="max-md:hidden"/>
             Stores <span className="text-gray-900">Near You</span>
           </h1>
-          <p className="mt-4 text-gray-500 text-base md:text-lg">
+          <p className="mt-4 text-gray-500 text-base md:text-lg ">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br className="max-lg:hidden"/>
             diam nonumy eirmod tempor invidunt ut labore et dolore <br className="max-lg:hidden"/>
             magna aliquyam erat, sed diam voluptua.
@@ -22,11 +22,11 @@ const Home = () => {
         </div>
 
         {/* Right Image */}
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-center slide-text">
           <img
             src={homeImage}
             alt="Home image"
-            className="w-full max-w-md md:max-w-lg"
+            className="w-full max-w-md md:max-w-lg "
           />
         </div>
       </div>
